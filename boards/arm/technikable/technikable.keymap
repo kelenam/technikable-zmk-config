@@ -20,6 +20,10 @@
 };
 
 / {
+        chosen {
+                zmk,matrix_transform = &mit_transform;
+        };
+
         keymap {
                 compatible = "zmk,keymap";
 
